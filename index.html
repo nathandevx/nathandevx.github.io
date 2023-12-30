@@ -1,18 +1,60 @@
 <!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Minecraft Blog</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="bedwars.html">Bedwars</a></li>
-        <li><a href="dungeons.html">Dungeons</a></li>
-      </ul>
-    </nav>
-    <h1>My Minecraft blog website</h1>
-    <p>Minecraft is a very <strong>fun</strong> game that I like <strong>playing</strong>. More about <a href="https://www.minecraft.net/en-us" title="Minecraft home page" target="_blank">Minecraft</a>.</p>
-    <img src="https://hypixel.net/attachments/aquarium-png.2881931/" alt="Minecraft bedwars game available on Hypixel" />
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='icon' href='logo.png' type='image/png' sizes="16x16" />
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <title>My Projects</title>
+        </head>
+    <body>
+		<!--Navbar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		    <div class="container-fluid">
+		        <a class="navbar-brand">Nathan Martinez</a>
+
+		        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		            <span class="navbar-toggler-icon"></span>
+		        </button>
+
+		        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+		            <ul class="navbar-nav">
+		                <li class="nav-item">
+		                    <a class="nav-link" href="https://www.linkedin.com/in/nathanmartinez1" target="_blank">LinkedIn</a>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link" href="https://github.com/nathandevx" target="_blank">GitHub</a>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+		</nav>
+
+
+		<!--Body-->
+		<div class="container">
+			<h1 class="text-center">My Projects</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, cumque, cupiditate delectus ducimus ea est eum eveniet explicabo ipsum iste maxime molestias nulla officia quia quisquam repellat sapiente vitae voluptatibus.</p>
+			<div class="row">
+		        <div class="col-lg-4">
+		            <div class="card mb-4 shadow-sm"><img alt="Product image" class="bd-placeholder-img" width="100%" height="300" src="https://placehold.co/600x400">
+		                <div class="card-body">
+		                    <p class="card-text fw-bold">Product name</p>
+		                    <p class="card-text">Product description</p>
+		                    <div class="d-flex justify-content-between align-items-center">
+		                        <div class="btn-group">
+								    <a class="btn btn-primary" href="#">View</a>
+								</div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<!--Boostrap JavaScript CDN-->
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
 </html>
+
